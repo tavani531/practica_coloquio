@@ -1,0 +1,260 @@
+{
+  "tablero": [
+    {
+      "nroCasillero": 0,
+      "tipo": "inicio",
+      "nombre": "Salida",
+      "precioCompra": null,
+      "precioAlquiler": null,
+      "monto": null,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 1,
+      "tipo": "provincia",
+      "nombre": "Buenos Aires",
+      "precioCompra": 300000,
+      "precioAlquiler": 25000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 2,
+      "tipo": "provincia",
+      "nombre": "Catamarca",
+      "precioCompra": 120000,
+      "precioAlquiler": 10000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 3,
+      "tipo": "provincia",
+      "nombre": "Chaco",
+      "precioCompra": 150000,
+      "precioAlquiler": 12000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 4,
+      "tipo": "multa",
+      "nombre": "Multa",
+      "precioCompra": null,
+      "precioAlquiler": null,
+      "monto": 5000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 5,
+      "tipo": "provincia",
+      "nombre": "Chubut",
+      "precioCompra": 180000,
+      "precioAlquiler": 15000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 6,
+      "tipo": "provincia",
+      "nombre": "Córdoba",
+      "precioCompra": 250000,
+      "precioAlquiler": 20000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 7,
+      "tipo": "provincia",
+      "nombre": "Corrientes",
+      "precioCompra": 160000,
+      "precioAlquiler": 13000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 8,
+      "tipo": "multa",
+      "nombre": "Multa",
+      "precioCompra": null,
+      "precioAlquiler": null,
+      "monto": 10000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 9,
+      "tipo": "provincia",
+      "nombre": "Entre Ríos",
+      "precioCompra": 170000,
+      "precioAlquiler": 14000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 10,
+      "tipo": "provincia",
+      "nombre": "Formosa",
+      "precioCompra": 130000,
+      "precioAlquiler": 11000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 11,
+      "tipo": "premio",
+      "nombre": "Premio Banco",
+      "precioCompra": null,
+      "precioAlquiler": null,
+      "monto": 50000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 12,
+      "tipo": "provincia",
+      "nombre": "Jujuy",
+      "precioCompra": 140000,
+      "precioAlquiler": 12000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 13,
+      "tipo": "provincia",
+      "nombre": "La Pampa",
+      "precioCompra": 150000,
+      "precioAlquiler": 13000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 14,
+      "tipo": "multa",
+      "nombre": "Multa",
+      "precioCompra": null,
+      "precioAlquiler": null,
+      "monto": 15000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 15,
+      "tipo": "provincia",
+      "nombre": "La Rioja",
+      "precioCompra": 125000,
+      "precioAlquiler": 10000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 16,
+      "tipo": "provincia",
+      "nombre": "Mendoza",
+      "precioCompra": 220000,
+      "precioAlquiler": 18000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 17,
+      "tipo": "provincia",
+      "nombre": "Misiones",
+      "precioCompra": 160000,
+      "precioAlquiler": 13000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 18,
+      "tipo": "premio",
+      "nombre": "Premio Banco",
+      "precioCompra": null,
+      "precioAlquiler": null,
+      "monto": 100000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 19,
+      "tipo": "provincia",
+      "nombre": "Neuquén",
+      "precioCompra": 200000,
+      "precioAlquiler": 17000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 20,
+      "tipo": "provincia",
+      "nombre": "Río Negro",
+      "precioCompra": 190000,
+      "precioAlquiler": 16000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 21,
+      "tipo": "multa",
+      "nombre": "Multa",
+      "precioCompra": null,
+      "precioAlquiler": null,
+      "monto": 20000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 22,
+      "tipo": "provincia",
+      "nombre": "Salta",
+      "precioCompra": 140000,
+      "precioAlquiler": 12000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 23,
+      "tipo": "provincia",
+      "nombre": "San Juan",
+      "precioCompra": 180000,
+      "precioAlquiler": 15000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 24,
+      "tipo": "provincia",
+      "nombre": "San Luis",
+      "precioCompra": 170000,
+      "precioAlquiler": 14000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 25,
+      "tipo": "multa",
+      "nombre": "Multa",
+      "precioCompra": null,
+      "precioAlquiler": null,
+      "monto": 25000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 26,
+      "tipo": "provincia",
+      "nombre": "Santa Cruz",
+      "precioCompra": 200000,
+      "precioAlquiler": 17000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 27,
+      "tipo": "provincia",
+      "nombre": "Santa Fe",
+      "precioCompra": 240000,
+      "precioAlquiler": 20000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 28,
+      "tipo": "provincia",
+      "nombre": "Santiago del Estero",
+      "precioCompra": 150000,
+      "precioAlquiler": 12000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 29,
+      "tipo": "provincia",
+      "nombre": "Tierra del Fuego",
+      "precioCompra": 210000,
+      "precioAlquiler": 18000,
+      "dniPropietario": null
+    },
+    {
+      "nroCasillero": 30,
+      "tipo": "provincia",
+      "nombre": "Tucumán",
+      "precioCompra": 180000,
+      "precioAlquiler": 15000,
+      "dniPropietario": null
+    }
+  ]
+}

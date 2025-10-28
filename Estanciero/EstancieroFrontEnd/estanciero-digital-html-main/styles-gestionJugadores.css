@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4; 
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2c3e50; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.gestion-container h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #2c3e50;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 5px;
+}
+
+.boton-volver {
+    display: inline-block;
+    background-color: #7f8c8d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.boton-volver:hover {
+    background-color: #95a5a6;
+}
+
+.crear-jugador {
+    margin-bottom: 30px;
+}
+
+.campo-formulario {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.campo-formulario label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.campo-formulario input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.campo-formulario input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.boton-principal {
+    color: white;
+    background-color: #007bff;
+    padding: 15px 30px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.boton-principal:hover {
+    background-color: #0056b3;
+}
+
+.tabla-jugadores {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-top: 20px;
+}
+
+.tabla-jugadores th,
+.tabla-jugadores td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.tabla-jugadores th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.boton-eliminar {
+    background-color: #dc3545; 
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.boton-eliminar:hover {
+    background-color: #c82333;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}

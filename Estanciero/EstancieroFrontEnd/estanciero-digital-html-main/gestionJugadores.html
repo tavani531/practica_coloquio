@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Jugadores - El Estanciero</title>
+    // Forma de vincular el archivo CSS
+    <link rel="stylesheet" href="styles-gestionJugadores.css">
+</head>
+<body>
+
+    <header>
+        <h1>El Estanciero Digital</h1>
+    </header>
+    
+    <main>
+        <div class="gestion-container">
+            <a href="index.html" class="boton-volver">&larr; Volver al Inicio</a>
+            
+            <div class="crear-jugador">
+                <h2>Crear Nuevo Jugador</h2>
+                <form id="formCrearJugador">
+                    <div class="campo-formulario">
+                        <label for="dniNuevo">DNI del Jugador:</label>
+                        <input type="text" id="dniNuevo" name="dniNuevo" placeholder="Ingrese el DNI" required>
+                    </div>
+
+                    <div class="campo-formulario">
+                        <label for="nombreNuevo">Nombre:</label>
+                        <input type="text" id="nombreNuevo" name="nombreNuevo" placeholder="Ingrese el nombre" required>
+                    </div>
+                    <div class="campo-formulario">
+                        <label for="emailNuevo">Email:</label>
+                        <input type="email" id="emailNuevo" name="emailNuevo" placeholder="Ingrese el email" required>
+                    </div>
+                    <button type="submit" class="boton-principal">Crear Jugador</button>
+                </form>
+            </div>
+
+            <div class="lista-jugadores">
+                <h2>Jugadores Registrados</h2>
+                <table class="tabla-jugadores">
+                    <thead>
+                        <tr>
+                            <th>DNI</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablaJugadoresBody">
+                        <tr>
+                            <td colspan="2">Cargando jugadores...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 El Estanciero Digital</p>
+    </footer>
+    // Forma de vincular el archivo JavaScript
+    <script src="script-gestionJugadores.js"></script>
+</body>
+</html>

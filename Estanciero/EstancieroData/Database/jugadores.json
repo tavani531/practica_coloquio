@@ -1,0 +1,46 @@
+[
+  {
+    "dni": 46449935,
+    "nombre": "Valentino",
+    "email": "valentino@example.com",
+    "estadisticas": {
+      "partidasJugadas": 7,
+      "partidasGanadas": 1,
+      "partidasPerdidas": 6,
+      "partidasPendientes": 0
+    }
+  },
+  {
+    "dni": 46835214,
+    "nombre": "Luca",
+    "email": "Luca@example.com",
+    "estadisticas": {
+      "partidasJugadas": 4,
+      "partidasGanadas": 2,
+      "partidasPerdidas": 2,
+      "partidasPendientes": 0
+    }
+  },
+  {
+    "dni": 46041568,
+    "nombre": "Santiago",
+    "email": "Santiago@example.com",
+    "estadisticas": {
+      "partidasJugadas": 3,
+      "partidasGanadas": 1,
+      "partidasPerdidas": 2,
+      "partidasPendientes": 0
+    }
+  },
+  {
+    "dni": 23429541,
+    "nombre": "Luis",
+    "email": "luis@gmail.com",
+    "estadisticas": {
+      "partidasJugadas": 1,
+      "partidasGanadas": 0,
+      "partidasPerdidas": 1,
+      "partidasPendientes": 0
+    }
+  }
+]

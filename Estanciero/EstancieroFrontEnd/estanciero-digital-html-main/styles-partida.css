@@ -1,0 +1,304 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #373636;
+    background-color: #f4f4f4; 
+}
+
+header {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-color: #2c3e50; 
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer {
+    color: white; 
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    background-color: #2c3e50;
+}
+
+.partida-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.panel-jugadores {
+    padding: 20px;
+    background-color: #ffffff; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+}
+
+.panel-jugadores h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #2c3e50;
+}
+
+.jugadores-info {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.jugador-info {
+    padding: 15px;
+    text-align: center;
+    flex: 1;
+    background-color: #f9f9f9; 
+    border: 1px solid #eee; 
+    border-radius: 8px;
+}
+
+.jugador-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #0056b3; 
+}
+
+.jugador-info p {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.tablero-container {
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.tablero-container h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #2c3e50; 
+}
+.tablero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.casillero-inicial {
+    color: white;
+    font-weight: bold;
+    width: 120px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #27ae60; 
+    border: 2px solid #229954; 
+    border-radius: 8px;
+}
+
+.numero-casillero {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.jugadores-en-casillero {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px;
+}
+
+.indicador-jugador {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    font-weight: bold;
+    color: white;
+}
+
+.casilleros-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.casillero {
+    width: 80px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7; 
+    border-radius: 4px;
+    transition: transform 0.2s ease;
+}
+.casillero:hover {
+    transform: scale(1.05); 
+    background-color: #dfe6e9; 
+}
+
+.casillero.activo {
+    border: 2px solid #007bff; 
+    box-shadow: 0 0 5px rgba(0,123,255,0.5); 
+}
+
+.casillero.jugador1 {
+    background-color: #e74c3c; 
+    color: white;
+    border-color: #c0392b;
+}
+
+.casillero.jugador2 {
+    background-color: #2ecc71; 
+    color: white;
+    border-color: #27ae60;
+}
+
+.panel-acciones {
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff; 
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.panel-acciones h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #2c3e50; 
+}
+
+.acciones-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.dado-resultado {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.dado-resultado p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333; 
+}
+
+.boton-control {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 5px;
+    background-color: #6c757d; 
+    border-radius: 5px;
+}
+
+.boton-control:hover {
+    background-color: #5a6268; 
+}
+
+.boton-control:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+
+.boton-accion {
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px 0;
+    background-color: #007bff; 
+    border-radius: 5px;
+}
+
+.boton-accion:hover {
+    background-color: #0056b3; 
+}
+
+.boton-accion:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+    .jugadores-info {
+    flex-direction: column;
+    }
+    .casilleros-grid {
+    grid-template-columns: repeat(3, 1fr);
+    }
+    .casillero {
+        width: 60px;
+        height: 50px;
+        font-size: 10px;
+}
+    .casillero-inicial {
+        width: 100px;
+        height: 70px;
+}
+}
+
+@media (max-width: 480px) {
+    .casilleros-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+    .casillero {
+    width: 50px;
+    height: 40px;
+    font-size: 9px;
+}
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Estanciero Digital</title>
+    //Forma de vincular el CSS
+    <link rel="stylesheet" href="styles-index.css">
+</head>
+<body>
+    <header>
+        <h1>El Estanciero Digital</h1>
+    </header>
+    
+    <main>
+        <div class="inicio-container">
+            <div class="juego-info">
+                <h2>Bienvenido al Estanciero Digital</h2>
+                <p>Un juego de mesa clásico donde los jugadores compiten por ser el mejor estanciero.</p>
+                <p>El objetivo es acumular la mayor cantidad de dinero y propiedades.</p>
+            </div>
+            
+            <div class="formulario-inicio">
+                <div class="navegacion-jugadores">
+                    <button id="btnGestionarJugadores" class="boton-principal">Gestionar Jugadores</button>
+                </div>
+                
+                <div class="opciones-partida">
+                    <div class="opcion-partida">
+                        <h3>Nueva Partida</h3>
+                        <form id="formNuevaPartida">
+                            <div class="campo-formulario">
+                                <label for="dniJugador1">DNI Jugador 1:</label>
+                                <select id="dniJugador1" name="dniJugador1" required>
+                                    <option value="">Seleccione un jugador</option>
+                                </select>
+                            </div>
+                            
+                            <div class="campo-formulario">
+                                <label for="dniJugador2">DNI Jugador 2:</label>
+                                <select id="dniJugador2" name="dniJugador2" required>
+                                    <option value="">Seleccione un jugador</option>
+                                </select>
+                            </div>
+                            <div class="campo-formulario">
+                                <label for="dniJugador3">DNI Jugador 3 (Opcional):</label>
+                                <select id="dniJugador3" name="dniJugador3">
+                                    <option value="">Seleccione DNI (Opcional)</option>
+                                </select>
+                            </div>
+        
+                            <div class="campo-formulario">
+                                <label for="dniJugador4">DNI Jugador 4 (Opcional):</label>
+                                <select id="dniJugador4" name="dniJugador4">
+                                    <option value="">Seleccione DNI (Opcional)</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="boton-principal">Crear Nueva Partida</button>
+                        </form>
+                    </div>
+                    
+                    <div class="opcion-partida">
+                        <h3>Continuar Partida</h3>
+                        <form id="formContinuarPartida">
+                            <div class="campo-formulario">
+                                <label for="numeroPartida">Número de Partida:</label>
+                                <input type="number" id="numeroPartida" name="numeroPartida" required 
+                                placeholder="Ingrese el número de partida" min="1">
+                            </div>
+                            
+                            <button type="submit" class="boton-principal">Continuar Partida</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 El Estanciero Digital</p>
+    </footer>
+    //Forma de vincular el JS
+    <script src="script-index.js"></script>
+</body>
+</html>

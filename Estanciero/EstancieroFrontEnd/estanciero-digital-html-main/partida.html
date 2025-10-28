@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partida - El Estanciero Digital</title>
+    //Forma de vincular el archivo CSS
+    <link rel="stylesheet" href="styles-partida.css">
+</head>
+<body>
+    <header>
+        <h1>El Estanciero Digital</h1>
+        <nav>
+            <button id="btnPausar" class="boton-control">Pausar</button>
+            <button id="btnReanudar" class="boton-control" disabled>Reanudar</button>
+            <button id="btnSuspender" class="boton-control">Suspender</button>
+            <button id="btnRegresar" class="boton-control">Volver al Inicio</button>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="partida-container">
+            <div class="panel-jugadores">
+                <h2>Información de Jugadores</h2>
+                <div class="jugadores-info">
+                    <div class="jugador-info" id="jugador1-info">
+                        <h3 id="nombreJugador1">Jugador 1</h3>
+                        <p>Saldo: $<span id="saldoJugador1">0</span></p>
+                        <p>Estado: <span id="estadoJugador1">Activo</span></p>
+                        <p>Posición: <span id="posicionJugador1">0</span></p>
+                    </div>
+                    <div class="jugador-info" id="jugador2-info">
+                        <h3 id="nombreJugador2">Jugador 2</h3>
+                        <p>Saldo: $<span id="saldoJugador2">0</span></p>
+                        <p>Estado: <span id="estadoJugador2">Activo</span></p>
+                        <p>Posición: <span id="posicionJugador2">0</span></p>
+                    </div>
+                    <div class="jugador-info" id="jugador3-info" style="display: none;">
+                        <h3 id="nombreJugador3">Jugador 3</h3>
+                        <p>Saldo: $<span id="saldoJugador3">0</span></p>
+                        <p>Estado: <span id="estadoJugador3">Activo</span></p>
+                        <p>Posición: <span id="posicionJugador3">0</span></p>
+                    </div>
+                    <div class="jugador-info" id="jugador4-info" style="display: none;">
+                        <h3 id="nombreJugador4">Jugador 4</h3>
+                        <p>Saldo: $<span id="saldoJugador4">0</span></p>
+                        <p>Estado: <span id="estadoJugador4">Activo</span></p>
+                        <p>Posición: <span id="posicionJugador4">0</span></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tablero-container">
+                <h2>Tablero del Juego</h2>
+                <div class="tablero" id="tablero">
+                    <div class="casillero casillero-inicial" id="casillero-0">
+                        <span class="numero-casillero">INICIO</span>
+                        <div class="jugadores-en-casillero" id="jugadores-0"></div>
+                    </div>
+                    
+                    <div class="casilleros-grid" id="casilleros-grid">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel-acciones">
+                <h2>Acciones</h2>
+                <div class="acciones-container">
+                    <button id="btnLanzarDado" class="boton-accion">Lanzar Dado</button>
+                    <div class="dado-resultado" id="dadoResultado">
+                        <p>Último resultado: <span id="ultimoDado">-</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 El Estanciero Digital</p>
+    </footer>
+    
+    //Forma de vincular el archivo JS
+    <script src="script-partida.js"></script>
+</body>
+</html>
